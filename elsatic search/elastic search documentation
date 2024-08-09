@@ -1,0 +1,30 @@
+https://www.elastic.co/guide/en/elasticsearch/reference/current/deb.html
+
+
+
+
+
+sudo systemctl enable elasticsearch.service
+
+
+
+-- restart ,  start , stop
+
+sudo systemctl start elasticsearch.service
+sudo systemctl stop elasticsearch.service
+sudo systemctl status elasticsearch.service
+
+
+
+
+
+
+
+# cheak the status 
+curl localhost:9200
+
+
+
+# paths 
+
+/etc/elasticsearch
